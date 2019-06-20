@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/repository-name/precache-manifest.4debd86999dd25e4536b6aaf77955f28.js"
+  "/Lights_Out_Game/precache-manifest.f2857e9311cf6d1643d198fae15d5083.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/repository-name/index.html", {
+workbox.routing.registerNavigationRoute("/Lights_Out_Game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
